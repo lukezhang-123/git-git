@@ -31,3 +31,24 @@ git log --pretty=format: --name-only --diff-filter=A | sort - | sed '/^$/d'
 ```
 
 source: [How can I make git show a list of the files that are being tracked? - Stack Overflow](https://stackoverflow.com/questions/15606955/how-can-i-make-git-show-a-list-of-the-files-that-are-being-tracked)
+
+---
+
+### 添加一个被gitignore忽略的文件
+
+1. 找到被忽略规则的.gitignore
+2. 最下面加一个例外规则，叹号开头，`!filepath`
+
+source: [git - Make .gitignore ignore everything except a few files - Stack Overflow](https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files)
+
+---
+
+### 强制加入文件到git管理
+
+```
+git add -f file
+git add --force file
+```
+
+source: [git - Force add despite the .gitignore file - Stack Overflow](https://stackoverflow.com/questions/8006393/force-add-despite-the-gitignore-file)
+

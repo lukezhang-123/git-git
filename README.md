@@ -2,12 +2,16 @@
 记录Git的特殊用法，知道你会简单用git，等你着急想用git功能而不会的时候就急了
 
 ---
+
 ![Alt text](image.png)
+
 ---
 
 ### 检查一个文件被哪个gitignore忽略，可以清楚打印具体文件和行号
 
-```git check-ignore -v filename```
+```
+git check-ignore -v filename
+```
 
 source: [git - Explain which gitignore rule is ignoring my file - Stack Overflow](https://stackoverflow.com/questions/12144633/explain-which-gitignore-rule-is-ignoring-my-file)
 

@@ -52,3 +52,17 @@ git add --force file
 
 source: [git - Force add despite the .gitignore file - Stack Overflow](https://stackoverflow.com/questions/8006393/force-add-despite-the-gitignore-file)
 
+---
+
+### 克隆本地git项目，测试
+
+克隆本地自己的库，验证是否缺少文件，是否提交正确后，再push推送到远程仓库
+
+```
+# git bash
+git clone /D/proj/github/lukezhang-123/vim-win-msvc/.git
+
+# 更新git，重置当前库文件
+git pull
+git reset --hard HEAD
+```

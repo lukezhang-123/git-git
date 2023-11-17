@@ -66,3 +66,32 @@ git clone /D/proj/github/lukezhang-123/vim-win-msvc/.git
 git pull
 git reset --hard HEAD
 ```
+
+---
+
+### 撤回最后几次提交，提交错了信息，文件等等
+
+```
+# 撤回最后一次提交，当前本地文件不会被任何修改删除
+git reset HEAD^
+# 撤回最后一次提交，--hard 参数是当前本地文件回退到上次提交状态，删除修改信息，慎用
+git reset --hard HEAD^
+
+# 撤回最后两次提交
+git reset HEAD~2
+
+```
+
+source: [Git delete last commit -- GitHub](https://gist.github.com/cutiko/0b1615c63504a940877541362cc51211)
+
+---
+
+### github提交敏感信息处理
+
+source: 
+
+[Removing sensitive data from a repository - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
+
+[从存储库中删除敏感数据 - GitHub 文档](https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
+
+

@@ -94,4 +94,21 @@ source:
 
 [从存储库中删除敏感数据 - GitHub 文档](https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
 
+---
+
+### github, markdown样例
+
+source:
+
+[Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[Full Markdown Example, allysonsilva/Full-Markdown.md - GitHub](https://gist.github.com/allysonsilva/85fff14a22bbdf55485be947566cc09e)
+
+[Markdown Cheatsheet · adam-p/markdown - GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+---
+
+### github, markdwon preview online
+
+[markdown-editor-online - GitHub](https://jbt.github.io/markdown-editor/)
 

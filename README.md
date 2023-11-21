@@ -112,3 +112,13 @@ source:
 
 [markdown-editor-online - GitHub](https://jbt.github.io/markdown-editor/)
 
+---
+
+### github bio 多行显示
+
+原理：加全码空格，使页面排版自动换行
+
+复制链接里，双引号内的，全码空格，放到bio每行后面
+
+links: [Correct syntax for newline in Github Bio - Stack Overflow](https://stackoverflow.com/questions/43406317/correct-syntax-for-newline-in-github-bio)
+

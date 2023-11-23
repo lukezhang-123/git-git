@@ -39,7 +39,13 @@ source: [How can I make git show a list of the files that are being tracked? - S
 1. 找到被忽略规则的.gitignore
 2. 最下面加一个例外规则，叹号开头，`!filepath`
 
-source: [git - Make .gitignore ignore everything except a few files - Stack Overflow](https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files)
+source: 
+
+[git - Make .gitignore ignore everything except a few files - Stack Overflow](https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files)
+
+但是注意有时候不起作用，只把gitignore放在最小子目录下
+
+[git - gitignore directory exception not working - Stack Overflow](https://stackoverflow.com/questions/16678936/gitignore-directory-exception-not-working)
 
 ---
 

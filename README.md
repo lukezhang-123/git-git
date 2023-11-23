@@ -122,3 +122,16 @@ source:
 
 links: [Correct syntax for newline in Github Bio - Stack Overflow](https://stackoverflow.com/questions/43406317/correct-syntax-for-newline-in-github-bio)
 
+---
+
+### gitignore重新生效
+
+原理： 删除所有库内缓存，重新提交，相当于重新全添加一遍
+```
+git rm -r --cached .
+git add .
+git commit -m "update .gitignore"
+```
+
+links: [Force git to update .gitignore - Stack Overflow](https://stackoverflow.com/questions/38450276/force-git-to-update-gitignore)
+

@@ -5,8 +5,11 @@
 ```shell
 要插入的commit的历史前一个commit的sha1,可以用前7位就行
 git rebase -i <commit-sha1>
+##刚好要插入的前面commit的sha1, ^表示当前commit的前一个，不能是第一个commit后加^
+##git rebase -i <commit-sha1>^
 ## 如果要插入在第一个commit后时，用root
 ## git rebase -i --root
+## 如果加的commit的刚好是merge后的，rebase要加参数--preserve-merges
 
 弹出编辑器，列出上面commit之后的commit历史，原第二行换行移到第三行，第二行写break，保存关闭当前编辑文件生效
 
